@@ -1,0 +1,41 @@
+
+<div class= "page-busqueda">
+     
+  <div class="page-busqueda__1">
+    <h1>Comic Recomendados</h1>
+    <div class=" Interactive__image">
+      ohtor
+    </div>
+  </div>
+  <div class="page-busqueda__2">
+      <h3>Tu Cuenta</h3>
+      <a href="">Perfil</a>
+
+    <h3>Busqueda</h3>
+    <br>
+    <a href="">Autor</a>
+    <button class = "page-inicio__barra__letter__Reg__button" aling="right" (click)="New_login()">Autor</button>
+          
+    <br>
+    <a>Nombre</a>
+    <br>
+    <a>Fecha</a>
+  </div>
+
+
+
+    <button class="page-libros__content__button" (click)="obtenerapi()">Actualizar </button>
+    
+  
+  <ul  *ngFor='let user of superH2'>
+    <li>
+      <img src="{{user.thumbnail.path}}.{{user.thumbnail.extension}}" alt="">
+      
+      {{user.series.name}}
+
+    </li>
+  </ul>
+ 
+
+
+  
