@@ -12,6 +12,9 @@ import {LoginComponent} from './login/login.component';
 import {RegistroComponent} from './registro/registro.component';
 import { NavInicialComponent } from './nav-inicial/nav-inicial.component';
 import { NavBusquedaComponent } from './nav-busqueda/nav-busqueda.component';
+import { AutorComponent } from './autor/autor.component';
+import { FechaComponent } from './fecha/fecha.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { NavBusquedaComponent } from './nav-busqueda/nav-busqueda.component';
     LoginComponent,
     RegistroComponent,
     NavInicialComponent,
-    NavBusquedaComponent
+    NavBusquedaComponent,
+    AutorComponent,
+    FechaComponent
    
    
    

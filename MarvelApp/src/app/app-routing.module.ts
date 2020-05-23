@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { AppComponent } from './app.component';
 import {RegistroComponent} from './registro/registro.component';
 import {NavBusquedaComponent} from './nav-busqueda/nav-busqueda.component';
+import { AutorComponent } from './autor/autor.component';
+
 
  
 
@@ -21,7 +23,7 @@ const routes: Routes = [
 
   
   {path: 'otr', component:  InicioComponent},
-
+  {path: 'autor', component:  AutorComponent},
   
 
   {path: 'registro', component:  RegistroComponent}

@@ -2,7 +2,7 @@
 
   
     &__content{
-        background-image: url("https://dummyimage.com/1250x300/000000/00ffe1.gif&text=CAMBIA+");
+        background-image: url("https://dummyimage.com/1300x700/000000/00ffe1.gif&text=CAMBIA+");
        
         display: flex;
         vertical-align: baseline;
@@ -11,10 +11,11 @@
      border: black;
      border-spacing: 40px;
        
-        height: 300px;
+        height: 90%;
+
         &__imagen{
             width: 1250px;
-            height: 300px;
+            height: 70%;
         }
        
     }

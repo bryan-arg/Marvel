@@ -30,7 +30,7 @@ export class NavInicialComponent implements OnInit {
 
 
 New_Inicio(){
-  this.router.navigate(['/otr']);
+  this.router.navigate(['/']);
 }
 
 New_login(){

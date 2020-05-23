@@ -26,6 +26,10 @@ export class SeverAPIService {
     return this.http.get('https://gateway.marvel.com:443/v1/public/comics?ts=1&apikey=16ad7184571b0bdb1a0c7cba4118b55d&hash=39c77dd64eaf3a01f2f6f82f6c802298');
   }
 
+  getMarvelAutor(){
+    return this.http.get('https://gateway.marvel.com:443/v1/public/creators?apikey=16ad7184571b0bdb1a0c7cba4118b55d&hash=39c77dd64eaf3a01f2f6f82f6c802298');
+  }
+
   setToken(token) {
     this.cookies.set("token", token);
     console.log(token);

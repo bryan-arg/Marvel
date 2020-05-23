@@ -1,75 +1,8 @@
-.page-inicio {
-   
-    &__barra{
-        background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        &__letter{
-            color: blanchedalmond;
-        }
-
-        &__letter__button{
-            background-color: black;
-            width: 165px;
-            margin-top: 12px;
-            height: 36px;
-            border-top-style: none; 
-            border-right-style: initial;
-            border-left-style: initial; 
-            color: blue;
-            cursor: pointer;
-            outline: none;
-            &:hover{
-                background-color: blue;
-                color: black;
-            }
-        }
-
-        &__letter__Reg__button{
-            line-height: 24px;
-            border-style: none;
-            vertical-align: top;
-            display: inline-block;
-            width: 100px;
-            justify-content: right;
-            height: 20px;
-            background-color: black;
-            color: blanchedalmond;  
-            outline: none;
-        }
-    }
-
-    &__content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &__imagen{
-            max-width: 100%;
-            max-height: 100%;
-        }
-    }
+.content{
+background-color: rgb(71, 66, 66);
+color: white;
+img{
+    width: 100px;
+    height: 70px;
 }
-
-.page-busqueda{
-    &__1{
-        .Interactive__image{    
-            float: inline-end;
-        }     
-    }
-
-    &__2{
-        float: left;
-        background:blue
-    }
-
-    &__offerts{
-            float: inherit;
-    }
-
-}
-
-h1{
-    text-align: center;
 }

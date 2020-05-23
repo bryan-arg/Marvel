@@ -33,6 +33,10 @@ Por_Nombre(){
   this.router.navigate(['/inicio']);
 }
 
+Por_Autor(){
+  this.router.navigate(['/autor']);
+}
+
 
 
 }

@@ -25,9 +25,11 @@ img{
 }
 
 .last{
+    background-color: rgb(36, 27, 27);
+    display: flex;
+    justify-content: center;
     &__list{
-        .imagenes_mov{
-        float: inline-end;
+       color: white;
     }
-    }
+    
 }
