@@ -8,7 +8,6 @@ using Marvle_API.Entities;
 
 namespace Marvle_API.Context
 {
-   
         public class ApplicationDbContext : DbContext
         {
             public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
@@ -20,7 +19,7 @@ namespace Marvle_API.Context
 
             public DbSet<Comprador> Compradores { get; set; }
 
-             public DbSet<Detalles_Compras> Detalles_Compras { get; set; }
+            public DbSet<Detalles_Compras> Detalles_Compras { get; set; }
 
 
     }

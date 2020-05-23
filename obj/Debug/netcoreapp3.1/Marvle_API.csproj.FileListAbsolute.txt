@@ -59,3 +59,12 @@ C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1
 C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
 C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\Nest.dll
 C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\obj\Debug\netcoreapp3.1\Marvle_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\angular.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\e2e\tsconfig.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\package-lock.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\package.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\tsconfig.app.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\tsconfig.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\tsconfig.spec.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\tslint.json
+C:\Users\bsarg\source\repos\Marvel\Marvle_API\Marvle_API\bin\Debug\netcoreapp3.1\MarvelApp\proxy.config.json
