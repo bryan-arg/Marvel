@@ -1,0 +1,40 @@
+.cont{
+    background-color:rgb(63, 60, 60);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.form{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:rgb(51, 47, 47);
+    height: 60%;
+    width: 50%;
+
+    
+}
+h1{
+    color: rgb(190, 190, 190);
+    font-size: 40px;
+}
+button{
+    color:black;
+    background-color: rgb(136, 168, 226);
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+input{
+    float: right;
+    width: 150px;
+    height: 30px;
+}
+label{
+    float: none;
+    font-size: 20px;
+    color: white;
+}

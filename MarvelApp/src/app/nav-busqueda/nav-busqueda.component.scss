@@ -1,0 +1,55 @@
+.page-inicio {
+
+  
+    &__content{
+        background-image: url("https://dummyimage.com/1250x300/000000/00ffe1.gif&text=CAMBIA+");
+       
+        display: flex;
+        vertical-align: baseline;
+        justify-content: center;
+       
+     border: black;
+     border-spacing: 40px;
+       
+        height: 300px;
+        &__imagen{
+            width: 1250px;
+            height: 300px;
+        }
+       
+    }
+    &__nav__button{
+        line-height: 24px;
+        border-style: none;
+        vertical-align: top;
+        display: inline-block;
+        width: 100px;
+        justify-content: right;
+        height: 20px;
+        background-color: blueviolet;
+        color: blanchedalmond;  
+        outline: none;
+        &:hover{
+            background-color: rgb(121, 193, 241);
+            color: #000000;
+        }
+    }
+}
+
+.page-busqueda{
+    &__1{
+        .Interactive__image{    
+            float: inline-end;
+        }     
+    }
+
+    &__2{
+        float: left;
+        background:blue
+    }
+
+    &__offerts{
+            float: inherit;
+    }
+
+}

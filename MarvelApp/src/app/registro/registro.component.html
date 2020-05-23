@@ -1,0 +1,43 @@
+<div class="cont">
+   
+<div class="form">
+    <div class="form_content">
+        <br>
+    <h1>REGISTRO</h1>
+    <br>
+    <br>
+    <br>
+    <label for="">id:  </label>
+    <input type="txt" class="id" placeholder="Nombre del Usuario" [(ngModel)]="id" >
+    <br>
+    <br>
+    <br>
+   
+    <label for="">nombre:  </label>
+    <input type="text" class="name_user" name="Nom" placeholder="Nombre del Usuario" [(ngModel)]="name" >
+    <br>
+    <br>
+    <br>
+  
+    <label for="" class="pass" >Documento:     </label>
+    <input type="text" placeholder="Documento"name="Doc"  [(ngModel)]="documento">
+    <br>
+    <br>
+    <br>
+   
+    <label for="" class="pass" >Telefono:  </label>
+    <input type="text" placeholder="telefono" name="tel"  [(ngModel)]="telefono">
+    <br>
+    <br>
+    <br>
+    
+    <label for="" class="pass" >Direccion:  </label>
+    <input type="text" placeholder="direccion"name="Id"  [(ngModel)]="direccion">
+    <br>
+    <br>
+<button class="page-libros__content__button" (click)="save(name,documento,telefono,direccion,id)">Guardar </button>
+<br>
+<br>
+</div>
+</div>
+</div>

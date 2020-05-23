@@ -1,0 +1,33 @@
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.bsq{
+    float: right;
+}
+.busqueda{
+    float: right;
+}
+
+
+.nav{
+    width: 900px;
+    height: 30px;
+    background-color: blueviolet;
+    
+}
+
+.last{
+    &__list{
+        .imagenes_mov{
+        float: inline-end;
+    }
+    }
+}

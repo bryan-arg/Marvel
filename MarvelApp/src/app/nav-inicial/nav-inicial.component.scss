@@ -1,0 +1,55 @@
+.page-inicio {
+
+    .inicio{
+        width: 35px;
+        height: 35px;
+    }
+    
+     &__barra{
+         background-color: #454545;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+ 
+         &__letter{
+             color: blanchedalmond;
+         }
+ 
+         &__letter__button{
+             background-color:#454545;
+             width: 165px;
+             margin-top: 12px;
+             height: 36px;
+             border-top-style: none; 
+             border-right-style: initial;
+             border-left-style: initial; 
+             color: white;
+             cursor: pointer;
+             outline: none;
+             &:hover{
+                 background-color: black;
+                 color: #454545;
+             }
+         }
+ 
+         &__letter__Reg__button{
+             line-height: 24px;
+             border-style: none;
+             vertical-align: top;
+             display: inline-block;
+             width: 100px;
+             justify-content: right;
+             height: 20px;
+             background-color: green;
+             color: blanchedalmond;  
+             outline: none;
+             &:hover{
+                 background-color: rgb(97, 119, 64);
+                 color: #690707;
+             }
+         }
+     }
+ 
+   
+ }
+ 
